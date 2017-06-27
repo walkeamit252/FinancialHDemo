@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/mReclativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#d3d3d3"
+        >
+
+    <ImageView
+        android:id="@+id/mImageView"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:src="@drawable/ic_navigation_user"/>
+
+
+    <TextView
+        android:id="@+id/mTextViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_toRightOf="@id/mImageView"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/mTextViewMob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:layout_toRightOf="@id/mImageView"
+            android:layout_below="@id/mTextViewName"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"/>
+
+        <!--<TextView
+            android:id="@+id/mTextViewDesig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:layout_toRightOf="@id/mImageView"
+            android:layout_below="@id/mTextViewMob"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"/>-->
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
